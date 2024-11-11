@@ -11,7 +11,24 @@ import java.time.Duration;
 public class FormPage {
 
     private final WebDriver driver;
+
+
     private final JavascriptExecutor javascriptExecutor;
+
+    public void closeAdv() {
+        try {
+            javascriptExecutor.executeScript("var elem = document.evaluate(\"//footer\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;" +
+                    "elem.parentNode.removeChild(elem);");
+        }
+        catch (Exception ignored) {}
+        try {
+            javascriptExecutor.executeScript("var elem = document.getElementById('fixedban');" +
+                    "elem.parentNode.removeChild(elem);");
+        }
+        catch (Exception ignored) {}
+
+
+    }
 
     public FormPage(WebDriver driver) {
         this.driver = driver;

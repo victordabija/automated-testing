@@ -38,6 +38,8 @@ public class FormTest {
         driver.get("https://demoqa.com/automation-practice-form");
         FormPage page = new FormPage(driver);
 
+        page.closeAdv();
+
         page.setFirstName(FormInputs.FIRST_NAME.getValue());
         page.setLastName(FormInputs.LAST_NAME.getValue());
         page.setEmail(FormInputs.USER_EMAIL.getValue());
