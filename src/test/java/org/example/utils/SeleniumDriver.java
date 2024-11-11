@@ -16,7 +16,7 @@ public class SeleniumDriver {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver-linux64/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        WebDriver driver = WebDriverManager.chromedriver().create();
+//        WebDriver driver = WebDriverManager.chromedriver().create();
 //        WebDriverManager.chromedriver().clearDriverCache().setup();
         return new ChromeDriver(options);
     }
