@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-11T15:56:47 EET" name="Practice Suite" finished-at="2024-11-11T15:57:09 EET" duration-ms="22488">
+    <groups>
+    </groups>
+    <test started-at="2024-11-11T15:56:47 EET" name="Test Basics 1" finished-at="2024-11-11T15:57:09 EET" duration-ms="22488">
+      <class name="org.example.FormTest">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:org.example.FormTest@139982de]" started-at="2024-11-11T15:56:47 EET" name="BeforeClass" finished-at="2024-11-11T15:56:48 EET" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="FormFillingTest()[pri:0, instance:org.example.FormTest@139982de]" started-at="2024-11-11T15:56:48 EET" name="FormFillingTest" finished-at="2024-11-11T15:57:09 EET" duration-ms="21132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFillingTest -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:org.example.FormTest@139982de]" started-at="2024-11-11T15:57:09 EET" name="CloseDriver" finished-at="2024-11-11T15:57:09 EET" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- org.example.FormTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
