@@ -29,6 +29,7 @@ public class FormTest {
 //        driver.manage().window().maximize();
 
         driver = SeleniumDriver.getRemoteDriver();
+        driver.manage().window().maximize();
     }
 
     @Test
