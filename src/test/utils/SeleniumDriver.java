@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class SeleniumDriver {
 
     public static WebDriver setLocalDriver() {
-        System.setProperty("webdriver.chrome.driver", "D:\\WebDriver\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver-linux64/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         //        driver = WebDriverManager.chromedriver().create();
