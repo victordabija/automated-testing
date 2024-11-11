@@ -4,13 +4,11 @@ import org.apache.log4j.Logger;
 import org.example.enums.FormInputs;
 import org.example.pom.FormPage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import utils.SeleniumDriver;
+import org.example.utils.SeleniumDriver;
 
 import java.nio.file.Paths;
 import java.time.LocalDate;
