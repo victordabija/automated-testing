@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d8cf6f-a113-4513-9cfa-169c62b0d107" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test_java.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test_java.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utils/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/utils/SeleniumDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +104,7 @@
       <workItem from="1731330535220" duration="196000" />
       <workItem from="1731330739214" duration="93000" />
       <workItem from="1731330840872" duration="105000" />
-      <workItem from="1731331074150" duration="2907000" />
+      <workItem from="1731331074150" duration="3158000" />
     </task>
     <servers />
   </component>
