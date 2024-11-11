@@ -42,18 +42,33 @@ public class FormTest {
         page.closeAdv();
 
         page.setFirstName(FormInputs.FIRST_NAME.getValue());
+        Thread.sleep(1000);
+
         page.setLastName(FormInputs.LAST_NAME.getValue());
+        Thread.sleep(1000);
+
         page.setEmail(FormInputs.USER_EMAIL.getValue());
+        Thread.sleep(1000);
         page.selectMaleGender();
+        Thread.sleep(1000);
         page.setMobileNumber(FormInputs.PHONE_NUMBER.getValue());
+        Thread.sleep(1000);
+        Thread.sleep(1000);
         page.setDateOfBirth(FormInputs.DATE_OF_BIRTH.getValue());
+        Thread.sleep(1000);
         page.setSubject(FormInputs.SUBJECT_MATH.getValue());
+        Thread.sleep(1000);
         page.setSubject(FormInputs.SUBJECT_BIOLOGY.getValue());
+        Thread.sleep(1000);
         page.setHobby(FormInputs.SPORTS_HOBBY_ID.getValue());
+        Thread.sleep(1000);
         page.setHobby(FormInputs.MUSIC_HOBBY_ID.getValue());
 //        page.setPicture(FormInputs.FILE_PATH.getValue());
+        Thread.sleep(1000);
         page.setAddress(FormInputs.ADDRESS.getValue());
+        Thread.sleep(1000);
         page.setState(FormInputs.STATE.getValue());
+        Thread.sleep(1000);
         page.setCity(FormInputs.CITY.getValue());
         page.submitForm();
 
@@ -85,7 +100,6 @@ public class FormTest {
 
     private void assertValues(String actual, String expected) throws InterruptedException {
         Assert.assertEquals(actual, expected);
-        Thread.sleep(1000);
     }
 
 }
