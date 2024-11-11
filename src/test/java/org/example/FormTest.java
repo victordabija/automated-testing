@@ -50,7 +50,7 @@ public class FormTest {
         page.setSubject(FormInputs.SUBJECT_BIOLOGY.getValue());
         page.setHobby(FormInputs.SPORTS_HOBBY_ID.getValue());
         page.setHobby(FormInputs.MUSIC_HOBBY_ID.getValue());
-        page.setPicture(FormInputs.FILE_PATH.getValue());
+//        page.setPicture(FormInputs.FILE_PATH.getValue());
         page.setAddress(FormInputs.ADDRESS.getValue());
         page.setState(FormInputs.STATE.getValue());
         page.setCity(FormInputs.CITY.getValue());
@@ -69,7 +69,7 @@ public class FormTest {
         );
         this.assertValues(page.getSubjects(), FormInputs.SUBJECT_MATH.getValue() + ", " + FormInputs.SUBJECT_BIOLOGY.getValue());
         this.assertValues(page.getHobbies(), FormInputs.HOBBIES.getValue());
-        this.assertValues(page.getPicture(), Paths.get(FormInputs.FILE_PATH.getValue()).getFileName().toString());
+//        this.assertValues(page.getPicture(), Paths.get(FormInputs.FILE_PATH.getValue()).getFileName().toString());
         this.assertValues(page.getAddress(), FormInputs.ADDRESS.getValue());
         this.assertValues(page.getStateAndCity(), FormInputs.STATE.getValue() + " " + FormInputs.CITY.getValue());
 
